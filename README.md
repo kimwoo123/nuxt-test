@@ -1,24 +1,5 @@
 # board-front
 
-## Build Setup
-
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-
 ## 어려운점
 SSR을 사용하여 Authenticated 과정을 진행하는 법이 어렵다.
 CSR의 경우 token을 localstrage에 저장하여 사용할 수 있었으나 SSR의 경우 localstorage를 사용할 수 없다.
